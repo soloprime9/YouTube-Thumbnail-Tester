@@ -6,10 +6,10 @@
   <url>
     <loc>https://youtubethumbnailtester.vercel.app/about</loc>
   </url>
-    <url>
+  <url>
     <loc>https://youtubethumbnailtester.vercel.app/thumbnail-downloader</loc>
   </url>
-    <url>
+  <url>
     <loc>https://youtubethumbnailtester.vercel.app/reduce-images</loc>
   </url>
 </urlset>
