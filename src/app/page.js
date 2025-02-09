@@ -57,7 +57,7 @@ function TestThumbnail (){
         </div>
 
           
-        
+        <a href="https://reduceimages-sigma.vercel.app/">Reduce Image</a>
        
       </form>
     </div>
