@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
     <nav className="max-w-6xl mx-auto px-4 sm:px-6 border-dashed mt-5 lg:px-8">
       <div className="flex justify-between h-16">
         <div className="flex-shrink-0 flex items-center">
-          <span className="text-2xl font-bold text-green-600 pointer"><a href="https://reduceimages-sigma.vercel.app/">ImageReducer</a></span>
+          <span className="text-2xl font-bold text-green-600 pointer"><a href="https://reduceimages-sigma.vercel.app/">YouTube Thumbnail Tester</a></span>
         </div>
         
         {/* Desktop Navigation */}
