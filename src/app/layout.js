@@ -14,7 +14,19 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "YouTube Thumbnail Tester & Previewer",
   description:
-    "Test and preview your video thumbnail designs for YouTube. Ensure your content stands out and attracts viewers with our easy-to-use and customizable tool.",
+    "Welcome to our Free YouTube Thumbnails Tester site! Are you looking to enhance your online presence with eye-catching thumbnails? Look no further! Test and preview your video thumbnail designs for YouTube. Ensure your content stands out and attracts viewers with our  easy-to-use and customizable tool. Optimize your click-through rates and  drive more traffic to your videos with Thumbnail Preview.",
+  keywords: "youtube thumbnail,Free YouTube Thumbnails Tester,thumbnail tester,thumbnail preview,youtube seo,preview thumbnail youtube,youtube video thumbnail preview,youtube thumbnail test and compare,
+thumbnail checker ai,
+youtube thumbnail tester free,
+youtube thumbnail size,
+thumbnail preview,
+youtube thumbnail preview online,
+tubebuddy thumbnail analyzer,
+youtube thumbnail download,
+thumbnail checker,
+youtube analytics,
+youtube thumbnail tester online,
+youtube thumbnail tester online free",
 };
 
 export default function RootLayout({ children }) {
