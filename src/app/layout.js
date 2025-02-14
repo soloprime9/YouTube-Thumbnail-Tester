@@ -11,51 +11,13 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
 });
 
-export const metadata = {
-  title: "YouTube Thumbnail Tester & Previewer",
-  description:
-    "Welcome to our Free YouTube Thumbnails Tester site! Are you looking to enhance your online presence with eye-catching thumbnails? Look no further! Test and preview your video thumbnail designs for YouTube. Ensure your content stands out and attracts viewers with our  easy-to-use and customizable tool. Optimize your click-through rates and  drive more traffic to your videos with Thumbnail Preview.",
-};
+
 
 export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-       <head>
-        {/* Schema Markup for SEO */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "SoftwareApplication",
-            "name": "Free Image Resizer",
-            "operatingSystem": "Web",
-            "applicationCategory": "MultimediaApplication",
-            "offers": {
-              "@type": "Offer",
-              "price": "0"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "ratingCount": "1500"
-            },
-            "description": "Professional-grade image optimization tool available for free online",
-            "featureList": [
-              "Multiple format support (JPG/PNG/GIF/BMP)",
-              "Quality adjustment slider",
-              "Instant download",
-              "Mobile-friendly interface"
-            ]
-          })}
-        </script>
-        
-        {/* Canonical URL */}
-        <link rel="canonical" href="https://reduceimages-sigma.vercel.app/" />
-
-
-          
-      </head>
-      
+       
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
 
       <header className="bg-white shadow-sm">
