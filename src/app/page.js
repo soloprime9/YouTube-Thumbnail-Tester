@@ -14,34 +14,7 @@ function TestThumbnail() {
   };
 
   return (
-    <>
-      <Head>
-        <title>YouTube Thumbnail Tester & Previewer</title>
-        <meta name="description" content="Test and preview your YouTube thumbnails for better engagement and SEO ranking. Improve click-through rates with our free thumbnail tester tool." />
-        <meta name="keywords" content="youtube thumbnail, Free YouTube Thumbnails Tester, thumbnail tester, thumbnail preview, youtube seo, preview thumbnail youtube, youtube video thumbnail preview, youtube thumbnail test and compare, thumbnail checker ai, youtube thumbnail tester free, youtube thumbnail size, thumbnail preview, youtube thumbnail preview online, tubebuddy thumbnail analyzer, youtube thumbnail download, thumbnail checker, youtube analytics, youtube thumbnail tester online, youtube thumbnail tester online free" />
-        <meta property="og:title" content="YouTube Thumbnail Tester & Previewer" />
-        <meta property="og:description" content="Test and preview your video thumbnails for YouTube. Optimize your click-through rates and attract more viewers!" />
-        <meta property="og:image" content="/thumbnail-preview.jpg" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="YouTube Thumbnail Tester & Previewer" />
-        <meta name="twitter:description" content="Enhance your online presence with our YouTube thumbnail tester and preview tool. Optimize your thumbnails easily!" />
-        <meta name="twitter:image" content="/thumbnail-preview.jpg" />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="YourBrandName" />
-        <link rel="canonical" href="https://youtubethumbnailtester.vercel.app/" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebApplication",
-            "name": "YouTube Thumbnail Tester & Previewer",
-            "url": "https://youtubethumbnailtester.vercel.app/",
-            "image": "/thumbnail-preview.jpg",
-            "description": "Test and preview your YouTube thumbnails to improve click-through rates and engagement.",
-            "applicationCategory": "Multimedia"
-          })}
-        </script>
-      </Head>
+    
     <div className='m-5'>
       <form className='p-2 border-2 rounded-2 w-auto h-auto text-xl'>
         <div className='flex justify-center'>
@@ -123,7 +96,7 @@ function TestThumbnail() {
   </div>
 </section>
     </div>
-            </>
+          
   )
 
 
