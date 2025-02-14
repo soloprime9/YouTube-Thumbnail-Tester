@@ -19,3 +19,14 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* globals.css */
+@layer components {
+  .device-mockup {
+    @apply w-full md:w-[800px] lg:w-[1200px] transition-all duration-300;
+  }
+  
+  .thumbnail-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4;
+  }
+}
