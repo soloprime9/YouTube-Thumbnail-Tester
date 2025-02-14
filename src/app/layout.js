@@ -1,6 +1,6 @@
-import { GeistSans } from 'geist/font/sans';
-import { GeistMono } from 'geist/font/mono';
-import './globals.css';
+import { Geist, Geist_Mono } from "next/font/google";
+import Head from "next/head";
+import "./globals.css";
 
 export const metadata = {
   title: 'YouTube Thumbnail Tester - Preview & Analyze Thumbnails Online',
