@@ -1,5 +1,4 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import Head from "next/head";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,7 +14,7 @@ const geistMono = Geist_Mono({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <title>YouTube Thumbnail Tester & Previewer</title>
         <meta
           name="description"
@@ -42,17 +41,22 @@ export default function RootLayout({ children }) {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="YourBrandName" />
         <link rel="canonical" href="https://youtubethumbnailtester.vercel.app/" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebApplication",
-          "name": "YouTube Thumbnail Tester & Previewer",
-          "url": "https://youtubethumbnailtester.vercel.app/",
-          "image": "/thumbnail-preview.jpg",
-          "description": "Test and preview your YouTube thumbnails to improve click-through rates and engagement.",
-          "applicationCategory": "Multimedia"
-        }) }} />
-      </Head>
-      
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "YouTube Thumbnail Tester & Previewer",
+              "url": "https://youtubethumbnailtester.vercel.app/",
+              "image": "/thumbnail-preview.jpg",
+              "description": "Test and preview your YouTube thumbnails to improve click-through rates and engagement.",
+              "applicationCategory": "Multimedia",
+            }),
+          }}
+        />
+      </head>
+
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <header className="bg-white shadow-sm">
           <nav className="max-w-6xl mx-auto px-4 sm:px-6 border-dashed mt-5 lg:px-8">
@@ -63,10 +67,10 @@ export default function RootLayout({ children }) {
                 </span>
               </div>
               <div className="hidden md:flex space-x-8">
-                <a href="https://reduceimages-sigma.vercel.app/" className="text-gray-700 hover:text-green-600 transition-colors">Home</a>
-                <a href="https://reduceimages-sigma.vercel.app/" className="text-gray-700 hover:text-green-600 transition-colors">Features</a>
-                <a href="https://reduceimages-sigma.vercel.app/" className="text-gray-700 hover:text-green-600 transition-colors">FAQ</a>
-                <a href="https://reduceimages-sigma.vercel.app/" className="text-gray-700 hover:text-green-600 transition-colors">Tools</a>
+                <a href="#" className="text-gray-700 hover:text-green-600 transition-colors">Home</a>
+                <a href="#" className="text-gray-700 hover:text-green-600 transition-colors">Features</a>
+                <a href="#" className="text-gray-700 hover:text-green-600 transition-colors">FAQ</a>
+                <a href="#" className="text-gray-700 hover:text-green-600 transition-colors">Tools</a>
               </div>
               <div className="md:hidden flex items-center">
                 <button className="text-gray-700 hover:text-green-600">
@@ -79,7 +83,7 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
 
-        {children}
+        <main>{children}</main>
 
         <footer className="bg-gray-50 mt-16 border-t">
           <div className="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
